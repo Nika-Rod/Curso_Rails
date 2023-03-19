@@ -5,20 +5,20 @@
 # Utilizando uma collection do tipo Array, escreva um programa que receba 3 números e no final 
 # exiba o resultado de cada um deles elevado a segunda potência.
 
-# numbers = []
+numbers = []
 
-# number = 1
+number = 1
 
-# 3.times do
-#     print "Digite o #{number}º:"
-#     numbers.push gets.chomp.to_i
-#     number += 1
-# end
+3.times do
+    print "Digite o #{number}º:"
+    numbers.push gets.chomp.to_i
+    number += 1
+end
 
-# numbers.each do |a|
-#     result = a ** 2
-#     puts "O resultado do número #{a} elevado a segunda potência é #{result}"
-# end    
+numbers.each do |a|
+     result = a ** 2
+    puts "O resultado do número #{a} elevado a segunda potência é #{result}"
+end    
 
 
 # **Missão 2**
@@ -27,21 +27,21 @@
 # chave e o valor. No final do programa para cada um desses elementos imprima a frase “Uma das 
 # chaves é **** e o seu valor é ****”
 
-# hash = {}
+hash = {}
 
-# 3.times do
-#     print 'Digite a chave: '
-#     key = gets.chomp
+ 3.times do
+     print 'Digite a chave: '
+     key = gets.chomp
 
-#     print 'Digite o valor: '
-#     value = gets.chomp
+     print 'Digite o valor: '
+     value = gets.chomp
 
-#     hash[key] = value 
-# end
+     hash[key] = value 
+end
 
-# hash.each do |k, v| 
-#     puts "Uma das chaves é #{k} e o seu valor é #{v}"
-# end
+hash.each do |k, v| 
+ puts "Uma das chaves é #{k} e o seu valor é #{v}"
+end
  
 
 # **Missão 3**
